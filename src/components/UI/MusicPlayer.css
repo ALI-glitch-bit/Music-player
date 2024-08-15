@@ -1,0 +1,39 @@
+.music-card {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .music-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .music-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .card:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card {
+    border: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Increased shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  
+    
+  
+  .music-button:hover {
+    background-color: #0056b3;
+  }
+  
+.row{
+    display: flex !important;
+    
+}

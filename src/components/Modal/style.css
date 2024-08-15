@@ -1,0 +1,43 @@
+.music-player-modal .modal-content {
+    background-color: #222;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .music-player-modal .modal-header {
+    border-bottom: none;
+  }
+  
+  .music-player-modal .modal-title {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .music-player-modal .music-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .music-player-modal .music-img:hover {
+    transform: scale(1.1);
+  }
+  
+  .music-player-modal audio {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .music-player-modal audio:hover {
+    transform: translateY(-3px);
+  }
+  
